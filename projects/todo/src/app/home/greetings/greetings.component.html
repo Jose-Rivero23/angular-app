@@ -1,0 +1,14 @@
+<p>HELLOOO</p>
+<div>
+  <input
+    type="text"
+    name="userName"
+    id=""
+    placeholder="Dime tu nombre"
+    [(ngModel)]="userName"
+  />
+</div>
+<div>
+  <output>Hola {{ userName ? userName : "Fulanito" }} </output>
+</div>
+<div><button type="button" (click)="handleClick()">Borrar</button></div>
